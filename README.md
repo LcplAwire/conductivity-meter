@@ -13,16 +13,14 @@ This project was developed to explore practical sensor design, analog signal con
 - Conductivity calculation and calibration
 
 ## Hardware
-- Microcontroller (Arduino-compatible)
-- Conductivity probe (custom electrodes)
-- Op-amp signal conditioning stage
-- Passive components (resistors, capacitors)
+- Seeed Studio XIAO SAMD21 Microcontroller (Arduino-compatible)
+- TDS Water Conductivity Sensor Conductivity probe
+- LCD 20x4 Display with I2C Interface
 
 ## Firmware
 - Analog signal sampling via ADC
 - RMS/average voltage calculation
 - Calibration curve application
-- Serial output for debugging and data logging
 
 ## Results
 - Successfully measured relative conductivity changes
@@ -30,9 +28,7 @@ This project was developed to explore practical sensor design, analog signal con
 - Repeatable measurements under controlled conditions
 
 ## Files
-- Firmware: `src/ConductivityMeter.ino`
-- Documentation: `docs/Conductivity_Meter_Report.pdf`
-- Calibration data: `data/calibration_data.csv`
+- Firmware: `ConductivityMeter/ConductivityMeter.ino`
 
 ## Future Improvements
 - Temperature compensation
