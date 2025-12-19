@@ -32,6 +32,7 @@ This project was developed to explore practical sensor design, analog signal con
 
 ## Future Improvements
 - Temperature compensation
+- Use a more power efficient and powerful microchip (ie STM32L)
 - Improved probe geometry
 - Digital filtering
 - Enclosure and waterproofing
